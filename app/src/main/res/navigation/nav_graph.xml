@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.jimmy.pearsonhampromoapp.TitleFragment"
+        android:label="@string/home"
+        tools:layout="layout/fragment_title" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.jimmy.pearsonhampromoapp.aboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/contactusFragment"
+        android:name="com.jimmy.pearsonhampromoapp.ContactusFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contactus" />
+</navigation>
